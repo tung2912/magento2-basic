@@ -1,0 +1,32 @@
+{
+    "name": "tung2912/magento2-basic",
+    "version": "1.0.0",
+    "description": "test-packagist publishing",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "keywords": [
+        "magento2-module"
+    ],
+    "authors": [
+        {
+            "name": "Tung Nguyen",
+            "email": "tunggia2912@gmail.com"
+        }
+    ],
+    "homepage": "https://tungportfolio.netlify.app/",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.4 || ~8.0 || ~8.1",
+        "magento/framework": ">=102.0",
+        "magento/module-company": "*",
+        "tecnickcom/tcpdf": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Variux\\Warranty\\": ""
+        }
+    }
+}
